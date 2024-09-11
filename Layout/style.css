@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    width: 100%;
+    height: 100%;
+ }
+
+ header {
+    font-size:  2rem;;
+    font-weight: bolder;
+    /* border: 2px solid black; */
+    padding: 20px;
+    text-align: center;
+    background: rgb(2,0,36);
+    background-image: linear-gradient(to right, #230f61, #70115a, #9b3551, #b4624f, #bf905f, #cc9a63, #d8a368, #e5ad6c, #ff8e6b, #ff6a88, #ff51bc, #c55ffb);
+    color: black;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border-width: 4px;
+    border-style: solid;
+   border: 1px solid white;
+   
+    
+    
+ }
+
+ nav {
+    font-size:  2rem;;
+    font-weight: bolder;
+    height: 10vh;
+    padding: 15px;
+    text-align: center;
+    background-color: purple;
+    color: black;
+    background-image: linear-gradient(to right, #0f6118, #3e742c, #608741, #809b58, #9faf71, #b5b06b, #cdaf68, #e5ad6c, #ff8e6b, #ff6a88, #ff51bc, #c55ffb);
+    border: 1px solid white;
+
+  
+
+}
+ 
+main {
+    width: 100%;
+    height: 70vh;
+    border: 1px solid palevioletred;
+    position: relative;
+}
+
+section {
+    font-size:  2rem;;
+    font-weight: bolder;
+    background-color: red;
+    position: absolute;
+    width: 70%;
+    height: 35vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid white; */
+    background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,215,70,1) 100%);
+border: 1px solid white;
+
+}
+article {
+    font-size:  2rem;;
+    font-weight: bolder;
+    background-color: red;
+    position: absolute;
+    width: 70%;
+    height: 35vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: 35vh;
+    background-image: linear-gradient(to bottom, #373205, #595a05, #798600, #94b700, #a8eb12);background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    /* border: 1px solid white; */
+    border: 1px solid white;
+
+
+}
+ 
+
+aside {
+    font-size:  2rem;;
+    font-weight: bolder;
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    background-image: linear-gradient(to right top, #6bd1b2, #4dcdc5, #38c7d7, #3fc0e4, #5bb7ea, #81b1f2, #a9a8ef, #cd9ee2, #f896c9, #ff97a4, #ffa57d, #fbbb5f);background-image: linear-gradient(to right top, #241be9, #8614d6, #b026c6, #cb42b8, #dc5fb0, #eb6ba6, #f57a9e, #fc8b9a, #ff9389, #ff9e79, #ffac6a, #fbbb5f);
+   border: 1px solid white;
+
+}
+
+footer {
+    font-size:  2rem;;
+    font-weight: bolder;
+    background-color: violet;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left bottom, #610f3e, #471741, #2d1a3b, #181830, #0b1220, #0c192c, #082038, #002745, #073d78, #3d4faa, #7c5cd7, #c55ffb);background-image: linear-gradient(to left bottom, #610f3e, #812f40, #9a5145, #ac7551, #b99967, #c7a068, #d6a76a, #e5ad6c, #ff8e6b, #ff6a88, #ff51bc, #c55ffb);
+    border: 1px solid white;
+
+}
+
+
+
